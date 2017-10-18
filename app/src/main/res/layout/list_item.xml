@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dip"
+    android:orientation="vertical"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp">
+
+    <Button
+        android:id="@+id/lblListItem"
+        android:layout_width="fill_parent"
+        android:layout_height="55dip"
+        android:textSize="18dip"
+        android:paddingTop="3dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="12dp"
+        android:gravity="center_vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:clickable="true"
+        android:textColor="@color/text1"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#bf564e1c"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="2"
+        android:textAllCaps="false"
+        android:layout_toLeftOf="@+id/btn_Notif"
+        android:layout_toStartOf="@+id/btn_Notif"/>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/btn_Share"
+        android:layout_gravity="right"
+        android:src="@drawable/share"
+        android:layout_alignBottom="@+id/lblListItem"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:background="@color/trans"
+        android:paddingLeft="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/btn_Notif"
+        android:layout_gravity="right"
+        android:src="@drawable/notif"
+        android:layout_alignBottom="@+id/lblListItem"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:background="@color/trans"
+        android:paddingLeft="3dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentEnd="false"
+        android:layout_toLeftOf="@+id/btn_Share"
+        android:layout_toStartOf="@+id/btn_Share"/>
+
+</RelativeLayout>

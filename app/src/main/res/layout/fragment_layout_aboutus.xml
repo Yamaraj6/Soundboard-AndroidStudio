@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/buttonshape3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/screenlast"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/img_rateus"
+            android:background="@drawable/buttonshape2"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="150dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/rateus"
+                android:clickable="false"
+                android:background="#00ffffff"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:text="@string/rate_icon_text"
+                android:textColor="@color/text3"
+                android:textStyle="bold"
+                android:layout_marginRight="10dp"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:textIsSelectable="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/img_google_play"
+            android:background="@drawable/buttonshape2"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:layout_weight="1"
+            android:gravity="center">
+            <ImageButton
+                android:id="@+id/img_google_play1"
+                android:layout_width="180dp"
+                android:layout_height="150dp"
+                android:scaleType="fitCenter"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/google_play"
+                android:clickable="false"
+                android:layout_below="@+id/img_rateus"
+                android:background="#00ffffff"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:text="@string/google_play_icon_text"
+                android:textColor="@color/text3"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginRight="10dp"
+                android:textAlignment="center"
+                android:textIsSelectable="false" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/img_facebook"
+            android:background="@drawable/buttonshape2"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/img_facebook1"
+                android:layout_width="180dp"
+                android:layout_height="130dp"
+                android:scaleType="fitCenter"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/face"
+                android:clickable="false"
+                android:layout_below="@+id/img_google_play"
+                android:background="#00ffffff"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:text="@string/facebook_text"
+                android:textColor="@color/text3"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginRight="10dp"
+                android:textAlignment="center"
+                android:textIsSelectable="false" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/adlayout"
+            android:gravity="center">
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/banner_ad_unit_id">
+            </com.google.android.gms.ads.AdView>
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

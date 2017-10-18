@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/buttonshape3"
+    xmlns:ads="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/screen1"
+        android:clickable="false">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/img_screen1"
+            android:src="@drawable/screen1"
+            android:adjustViewBounds="true"
+            android:clickable="true"/>
+
+        <ExpandableListView
+
+            android:id="@+id/lst_1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/img_screen1"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="50dp"
+            android:clipToPadding="false"/>
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_ad_unit_id">
+        </com.google.android.gms.ads.AdView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/click_counter"
+            android:text="0"
+            android:textColor="@color/white"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.slyfoxstudios.korwinsoundboard.DatabaseActivity">
+
+
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_soundDescription"
+        android:text="opis string long"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add to DB"
+        android:id="@+id/btn_AddToDB"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/button2"
+        android:layout_alignTop="@+id/btn_AddToDB"
+        android:layout_toRightOf="@+id/btn_AddToDB"
+        android:layout_toEndOf="@+id/btn_AddToDB" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        android:id="@+id/btn_Back"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_toRightOf="@+id/button2"
+        android:layout_toEndOf="@+id/button2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Opis dzwięku:"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/btn_AddToDB"
+        android:layout_toLeftOf="@+id/btn_Back"
+        android:layout_toStartOf="@+id/btn_Back" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lst_soundsList"
+        android:clickable="true"
+        android:choiceMode="singleChoice"
+        android:contextClickable="true"
+        android:layoutMode="clipBounds"
+        android:layout_below="@+id/txt_part"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_duration"
+        android:layout_below="@+id/txt_soundDescription"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:text="1 lub 2 dlugosc" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_part"
+        android:text="czesc gothic integer"
+        android:layout_below="@+id/txt_duration"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

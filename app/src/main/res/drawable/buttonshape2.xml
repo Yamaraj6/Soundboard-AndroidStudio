@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle" >
+            <corners
+                android:radius="14dp"
+                />
+            <gradient
+                android:angle="45"
+                android:centerX="45%"
+                android:startColor="@color/startColor2"
+                android:centerColor="@color/centerColor2"
+                android:endColor="@color/endColor2"
+                android:type="linear"
+                />
+            <padding
+                android:left="0dp"
+                android:top="0dp"
+                android:right="0dp"
+                android:bottom="0dp"
+                />
+            <size
+                android:width="270dp"
+                android:height="60dp"
+                />
+            <stroke
+                android:width="2dp"
+                android:color="@color/band2"
+                />
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle" >
+            <corners
+                android:radius="14dp"
+                />
+            <gradient
+                android:angle="45"
+                android:centerX="55%"
+                android:startColor="@color/startColor2Click"
+                android:centerColor="@color/centerColor2Click"
+                android:endColor="@color/endColor2Click"
+                android:type="linear"
+                />
+            <padding
+                android:left="0dp"
+                android:top="0dp"
+                android:right="0dp"
+                android:bottom="0dp"
+                />
+            <size
+                android:width="270dp"
+                android:height="60dp"
+                />
+            <stroke
+                android:width="2dp"
+                android:color="@color/band2Click"
+                />
+        </shape>
+    </item>
+</selector>

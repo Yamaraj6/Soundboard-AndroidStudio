@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Korwin Mikke Soundboard</string>
+    <string name="title_activity_main">Korwin Mikke Soundboard</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="path_to_database">/data/data/com.slyfoxstudios.korwinsoundboard/databases/</string>
+    <string name="path_to_raw_folder">android.resource://com.slyfoxstudios.korwinsoundboard/raw/</string>
+    <string name="facebook_app_id">315907252179358</string>
+
+    <!-- ADS -->
+    <string name="banner_ad_unit_id">ca-app-pub-3192494394821211/3976990889</string>
+    <string name="admob_interstitial_id">ca-app-pub-3192494394821211/5453724084</string>
+    <bool name="ads_on">true</bool>
+
+    <integer name="clicksforrate">50</integer>
+    <integer name="clicksforrate2">200</integer>
+
+    <!-- SCREEN -->
+    <integer name="screen_count">4</integer>
+    <integer name="lists_on_screen_1">4</integer>
+    <integer name="lists_on_screen_2">4</integer>
+    <integer name="lists_on_screen_3">4</integer>
+
+    <string name="screen_1_list_1">Teksty</string>
+    <string name="screen_1_list_2">Powiedzenia</string>
+    <string name="screen_1_list_3">O Hitlerze</string>
+    <string name="screen_1_list_4">Z Rurkowcem</string>
+    <string name="screen_1_list_5">-</string>
+
+    <string name="screen_2_list_1">O Kobietach</string>
+    <string name="screen_2_list_2">O Homosiach</string>
+    <string name="screen_2_list_3">O Traswestytach</string>
+    <string name="screen_2_list_4">O Paraolimpiadzie</string>
+    <string name="screen_2_list_5">-</string>
+
+    <string name="screen_3_list_1">O Uni Europejskiej</string>
+    <string name="screen_3_list_2">Z Parlamentu</string>
+    <string name="screen_3_list_3">Po Angielsku</string>
+    <string name="screen_3_list_4">Czary</string>
+    <string name="screen_3_list_5">-</string>
+
+
+    <!-- SHARE -->
+    <string name="facebook_1">fb://page/477010199137408</string>
+    <string name="facebook_2">https://www.facebook.com/slyfoxstudios/</string>
+    <string name="rate_us_1">market://details?id=com.slyfoxstudios.korwinsoundboard</string>
+    <string name="rate_us_2">https://play.google.com/store/apps/details?id=com.slyfoxstudios.korwinsoundboard</string>
+    <string name="youtube">-</string>
+    <string name="google_play">market://dev?id=SlyFox+Studios</string>
+    <string name="google_play2">https://play.google.com/store/apps/developer?id=SlyFox+Studios</string>
+
+    <string name="rate_us_yes">OCEŃ APLIKACJĘ</string>
+    <string name="rate_us_no">NIE TERAZ</string>
+
+    <string name="rate_icon_text">OCEŃ APLIKACJĘ</string>
+    <string name="rate_icon_text_popup">Poświęć chwilę i oceń naszą aplikację!</string>
+    <string name="google_play_icon_text">SPRAWDŹ NASZE APLIKACJE</string>
+    <string name="facebook_text">ZNAJDŹ NAS NA FACEBOOKU</string>
+
+
+    <!--Tab names-->
+    <string name="tab_name_1">Janusz</string>
+    <string name="tab_name_2">Korwin</string>
+    <string name="tab_name_3">Mikke</string>
+    <string name="tab_name_aboutus">O nas</string>
+
+    <!-- RINGTONE -->
+    <string name="folder_with_ringtones">/Ringtones</string>
+
+    <string name="ringtone_changed">Ustawiono pomyślnie \uD83D\uDC4D</string>
+    <string name="ringtone_not_changed">Dźwięku nie udało się ustawić 🙁</string>
+    <string name="permission">Udziel pozwolenia, aby aplikacja mogła ustawić dźwięk jako dzwonek.</string>
+    <string name="change_ringtone">Ustaw jako Dzwonek</string>
+    <string name="change_notification">Ustaw jako Powiadomienie</string>
+    <string name="change_alarm">Ustaw jako Alarm</string>
+</resources>

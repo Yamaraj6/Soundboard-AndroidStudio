@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#21201e</color>
+    <color name="colorAccent">#a91e35</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#cecdc4</color>
+
+    <color name="trans">#00ffffff</color>
+
+    <color name="tabtitle">#cecdc4</color>
+
+    <color name="popupBackground">#dac13a</color>
+
+
+    <!-- BUTTONSHAPE1 -->
+    <color name="startColor1">#dedede</color>
+    <color name="centerColor1">#f4f4f4</color>
+    <color name="endColor1">#818081</color>
+    <color name="band1">#000000</color>
+
+    <color name="startColor1Click">#646464</color>
+    <color name="centerColor1Click">#f5f5f5</color>
+    <color name="endColor1Click">#000000</color>
+    <color name="band1Click">#000000</color>
+
+    <color name="text1">#000000</color>
+
+    <!-- BUTTONSHAPE2 -->
+    <color name="startColor2">#212121</color>
+    <color name="centerColor2">#fff7d8</color>
+    <color name="endColor2">#000000</color>
+    <color name="band2">#000000</color>
+
+    <color name="startColor2Click">#ba000000</color>
+    <color name="centerColor2Click">#fff7d8</color>
+    <color name="endColor2Click">#f4333333</color>
+    <color name="band2Click">#000000</color>
+
+    <color name="text2">#000000</color>
+
+    <!-- BUTTONSHAPE BACKGROUND -->
+    <color name="startColor3">#f0000000</color>
+    <color name="centerColor3">#000000</color>
+    <color name="endColor3">#000000</color>
+    <color name="band3">#000000</color>
+
+    <color name="text3">#000000</color>
+
+    <!-- BUTTONSHAPE POPUP BACKGROUND -->
+    <color name="startColorPop">#b9b186</color>
+    <color name="centerColorPop">#fff8d3</color>
+    <color name="endColorPop">#f2e8a9</color>
+    <color name="bandPop">#ede29e</color>
+
+    <color name="textPop">#000000</color>
+
+    <!-- BUTTONSHAPE RED -->
+    <color name="startColorRed">#d4a70404</color>
+    <color name="centerColorRed">#fc6a6a</color>
+    <color name="endColorRed">#d5bc0000</color>
+    <color name="bandRed">#000000</color>
+
+    <color name="startColorRedClick">#fc6a6a</color>
+    <color name="centerColorRedClick">#d4a70404</color>
+    <color name="endColorRedClick">#fc6a6a</color>
+    <color name="bandRedClick">#000000</color>
+
+    <color name="textRed">#000000</color>
+
+    <!-- BUTTONSHAPE GREEN -->
+    <color name="startColorGreen">#ba02701f</color>
+    <color name="centerColorGreen">#2bca03</color>
+    <color name="endColorGreen">#1b701e</color>
+    <color name="bandGreen">#000000</color>
+
+    <color name="startColorGreenClick">#2bca03</color>
+    <color name="centerColorGreenClick">#1b701e</color>
+    <color name="endColorGreenClick">#ba02701f</color>
+    <color name="bandGreenClick">#baedd835</color>
+
+    <color name="textGreen">#000000</color>
+</resources>
